@@ -1,0 +1,80 @@
+{
+   "checksum": "a9199bd113699b4ce45e793f1878c322",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13411391722957682",
+            "date_last_used": "0",
+            "guid": "4fb83242-d770-41f0-b6f1-ff98746218f4",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Solid eah, solid fuck pt. 2 (Rekta na lahat) | nsfwPH Pinoy Forums",
+            "type": "url",
+            "url": "https://nsfwph.org/threads/1973318/"
+         }, {
+            "date_added": "13411391728023071",
+            "date_last_used": "0",
+            "guid": "bede4c3e-38da-4833-b30c-9736f843196a",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Swerteng kumag (unang ambag) | nsfwPH Pinoy Forums",
+            "type": "url",
+            "url": "https://nsfwph.org/threads/1973653/"
+         }, {
+            "date_added": "13411391808724079",
+            "date_last_used": "0",
+            "guid": "8b534585-4c50-42e2-99b6-26999bf1e779",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Big boob riding (*)(*) | nsfwPH Pinoy Forums",
+            "type": "url",
+            "url": "https://nsfwph.org/threads/1973561/"
+         }, {
+            "date_added": "13411391810911246",
+            "date_last_used": "0",
+            "guid": "2a001ac7-1b2c-40c0-8b11-f20d23f91484",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Big tits girl from blue school zamboanga (full set) | nsfwPH Pinoy Forums",
+            "type": "url",
+            "url": "https://nsfwph.org/threads/1973338/"
+         } ],
+         "date_added": "13411391131084985",
+         "date_last_used": "0",
+         "date_modified": "13411391810911246",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13411391131084985",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13411391131084985",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

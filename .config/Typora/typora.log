@@ -1,0 +1,180 @@
+INFO 12/20/2025, 4:30:16 PM  35  launch with argv [/usr/share/typora/Typora, --enable-wayland-ime, /home/rafael/HyDE-Gallery/README.md]
+INFO 12/20/2025, 4:30:16 PM  113  ------------------start------------------
+DEBUG 12/20/2025, 4:30:16 PM  134  before setting 
+DEBUG 12/20/2025, 4:30:17 PM  147  prepDatabase /home/rafael/.config/Typora/profile.data
+DEBUG 12/20/2025, 4:30:17 PM  149  prepDatabase /home/rafael/.config/Typora/history.data
+INFO 12/20/2025, 4:30:17 PM  151  OS is linux 6.18.1-zen1-2-zen
+INFO 12/20/2025, 4:30:17 PM  151  launchFromDiffVersion, pre version is undefined
+INFO 12/20/2025, 4:30:17 PM  151  start LM in devVersion=false
+INFO 12/20/2025, 4:30:17 PM  157  overwriteThemeFolder
+DEBUG 12/20/2025, 4:30:17 PM  159  after setting 
+INFO 12/20/2025, 4:30:17 PM  159  typora version: 1.12.4
+DEBUG 12/20/2025, 4:30:17 PM  159  app.openFile
+INFO 12/20/2025, 4:30:17 PM  159  addRecentDocument
+DEBUG 12/20/2025, 4:30:17 PM  229  added recovery 1 /home/rafael/HyDE-Gallery/README.md  (0)
+INFO 12/20/2025, 4:30:17 PM  231  [watch L]
+DEBUG 12/20/2025, 4:30:17 PM  231  prepDatabase /home/rafael/.config/Typora/DLn42M16sg
+INFO 12/20/2025, 4:30:17 PM  232  no info
+INFO 12/20/2025, 4:30:17 PM  232  ls put SLicense
+DEBUG 12/20/2025, 4:30:17 PM  232  onUnfillLicense
+DEBUG 12/20/2025, 4:30:17 PM  232  trailRemains is 15
+INFO 12/20/2025, 4:30:17 PM  233  [L] installDate is 12/20/2025, trail remains: 15 days
+DEBUG 12/20/2025, 4:30:17 PM  233  onUnfillLicense
+INFO 12/20/2025, 4:30:17 PM  233  [watch L] hasL: false
+DEBUG 12/20/2025, 4:30:17 PM  274  putAccelerator File -> &File
+DEBUG 12/20/2025, 4:30:17 PM  275  putAccelerator Edit -> &Edit
+DEBUG 12/20/2025, 4:30:17 PM  275  putAccelerator Paragraph -> &Paragraph
+DEBUG 12/20/2025, 4:30:17 PM  275  putAccelerator Format -> F&ormat
+DEBUG 12/20/2025, 4:30:17 PM  275  putAccelerator View -> &View
+DEBUG 12/20/2025, 4:30:17 PM  275  putAccelerator Themes -> &Themes
+DEBUG 12/20/2025, 4:30:17 PM  275  putAccelerator Help -> &Help
+INFO 12/20/2025, 4:30:17 PM  290  synced recovery
+user-dict.json not found
+INFO 12/20/2025, 4:30:17 PM  418  [focus] 1
+INFO 12/20/2025, 4:30:17 PM  660  [blur] 1
+INFO 12/20/2025, 4:30:17 PM  660  [win] blur
+DEBUG 12/20/2025, 4:30:17 PM  683  onUnfillLicense
+ERROR 12/20/2025, 4:30:17 PM  690  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 12/20/2025, 4:30:17 PM  691  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 12/20/2025, 4:30:17 PM  692  handle document.loadData
+DEBUG 12/20/2025, 4:30:17 PM  692  document.loadData 0
+INFO 12/20/2025, 4:30:17 PM  723  [RenderProcess 1][Log] [UndoManager] reset commandStack
+INFO 12/20/2025, 4:30:17 PM  723  [RenderProcess 1][Log] reset NodeMap
+INFO 12/20/2025, 4:30:17 PM  723  [RenderProcess 1][Log] readContentFrom /home/rafael/HyDE-Gallery/README.md
+INFO 12/20/2025, 4:30:17 PM  905  [focus] 1
+DEBUG 12/20/2025, 4:30:17 PM  952  added recovery 1 /home/rafael/HyDE-Gallery/README.md  (0)
+INFO 12/20/2025, 4:30:17 PM  955  synced recovery
+INFO 12/20/2025, 4:30:20 PM  3301  [RenderProcess 1][Log] onBecomeActive
+INFO 12/20/2025, 4:30:20 PM  3301  [RenderProcess 1][Log] File.activeWindow = true
+INFO 12/20/2025, 4:30:26 PM  9174  synced recovery
+INFO 12/20/2025, 4:30:26 PM  9174  ----------------before-quit-----------------
+INFO 12/20/2025, 4:30:26 PM  9174  ------------------will-quit------------------
+INFO 12/20/2025, 4:30:26 PM  9175  -----------------quit------------------
+INFO 12/20/2025, 4:30:26 PM  9175  closeLogging
+INFO 12/21/2025, 12:48:42 PM  35  launch with argv [/usr/share/typora/Typora, --enable-wayland-ime]
+INFO 12/21/2025, 12:48:42 PM  108  ------------------start------------------
+DEBUG 12/21/2025, 12:48:42 PM  127  before setting 
+DEBUG 12/21/2025, 12:48:42 PM  141  prepDatabase /home/rafael/.config/Typora/profile.data
+DEBUG 12/21/2025, 12:48:42 PM  143  prepDatabase /home/rafael/.config/Typora/history.data
+INFO 12/21/2025, 12:48:42 PM  145  OS is linux 6.18.1-zen1-2-zen
+INFO 12/21/2025, 12:48:42 PM  145  start LM in devVersion=false
+DEBUG 12/21/2025, 12:48:42 PM  151  after setting 
+INFO 12/21/2025, 12:48:42 PM  151  typora version: 1.12.4
+INFO 12/21/2025, 12:48:42 PM  179  [watch L]
+DEBUG 12/21/2025, 12:48:42 PM  179  prepDatabase /home/rafael/.config/Typora/DLn42M16sg
+INFO 12/21/2025, 12:48:42 PM  181  no info
+INFO 12/21/2025, 12:48:42 PM  181  ls put SLicense
+DEBUG 12/21/2025, 12:48:42 PM  181  onUnfillLicense
+DEBUG 12/21/2025, 12:48:42 PM  181  trailRemains is 15
+INFO 12/21/2025, 12:48:42 PM  181  [L] installDate is 12/20/2025, trail remains: 15 days
+DEBUG 12/21/2025, 12:48:42 PM  181  onUnfillLicense
+INFO 12/21/2025, 12:48:42 PM  181  [watch L] hasL: false
+user-dict.json not found
+DEBUG 12/21/2025, 12:48:42 PM  192  app.openFile
+DEBUG 12/21/2025, 12:48:42 PM  192  putAccelerator File -> &File
+DEBUG 12/21/2025, 12:48:42 PM  192  putAccelerator Edit -> &Edit
+DEBUG 12/21/2025, 12:48:42 PM  193  putAccelerator Paragraph -> &Paragraph
+DEBUG 12/21/2025, 12:48:42 PM  193  putAccelerator Format -> F&ormat
+DEBUG 12/21/2025, 12:48:42 PM  193  putAccelerator View -> &View
+DEBUG 12/21/2025, 12:48:42 PM  193  putAccelerator Themes -> &Themes
+DEBUG 12/21/2025, 12:48:42 PM  193  putAccelerator Help -> &Help
+DEBUG 12/21/2025, 12:48:42 PM  239  added recovery 1 null  (0)
+INFO 12/21/2025, 12:48:42 PM  276  synced recovery
+INFO 12/21/2025, 12:48:42 PM  389  [focus] 1
+INFO 12/21/2025, 12:48:42 PM  560  [blur] 1
+INFO 12/21/2025, 12:48:42 PM  560  [win] blur
+INFO 12/21/2025, 12:48:42 PM  560  [focus] 1
+INFO 12/21/2025, 12:48:42 PM  560  [blur] 1
+INFO 12/21/2025, 12:48:42 PM  560  [win] blur
+INFO 12/21/2025, 12:48:42 PM  560  [focus] 1
+DEBUG 12/21/2025, 12:48:42 PM  684  onUnfillLicense
+ERROR 12/21/2025, 12:48:42 PM  696  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 12/21/2025, 12:48:42 PM  698  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 12/21/2025, 12:48:42 PM  699  handle document.loadData
+DEBUG 12/21/2025, 12:48:42 PM  699  document.loadData 0
+INFO 12/21/2025, 12:48:42 PM  725  [RenderProcess 1][Log] [UndoManager] reset commandStack
+INFO 12/21/2025, 12:48:42 PM  726  [RenderProcess 1][Log] reset NodeMap
+DEBUG 12/21/2025, 12:48:42 PM  734  added recovery 1   (0)
+INFO 12/21/2025, 12:48:42 PM  735  synced recovery
+INFO 12/21/2025, 12:48:42 PM  826  [RenderProcess 1][Log] onBecomeActive
+INFO 12/21/2025, 12:48:42 PM  826  [RenderProcess 1][Log] File.activeWindow = true
+INFO 12/21/2025, 12:48:44 PM  2819  [blur] 1
+INFO 12/21/2025, 12:48:44 PM  2819  [win] blur
+INFO 12/21/2025, 12:48:45 PM  3135  [focus] 1
+INFO 12/21/2025, 12:48:46 PM  4920  synced recovery
+INFO 12/21/2025, 12:48:46 PM  4920  ----------------before-quit-----------------
+INFO 12/21/2025, 12:48:46 PM  4920  ------------------will-quit------------------
+INFO 12/21/2025, 12:48:46 PM  4921  -----------------quit------------------
+INFO 12/21/2025, 12:48:46 PM  4921  closeLogging
+INFO 1/12/2026, 6:49:46 PM  37  launch with argv [/usr/share/typora/Typora, --enable-wayland-ime]
+INFO 1/12/2026, 6:49:46 PM  124  ------------------start------------------
+DEBUG 1/12/2026, 6:49:46 PM  143  before setting 
+DEBUG 1/12/2026, 6:49:46 PM  156  prepDatabase /home/rafael/.config/Typora/profile.data
+DEBUG 1/12/2026, 6:49:46 PM  159  prepDatabase /home/rafael/.config/Typora/history.data
+INFO 1/12/2026, 6:49:46 PM  161  OS is linux 6.18.1-zen1-2-zen
+INFO 1/12/2026, 6:49:46 PM  161  start LM in devVersion=false
+DEBUG 1/12/2026, 6:49:46 PM  167  after setting 
+INFO 1/12/2026, 6:49:46 PM  167  typora version: 1.12.4
+INFO 1/12/2026, 6:49:46 PM  209  [watch L]
+DEBUG 1/12/2026, 6:49:46 PM  209  prepDatabase /home/rafael/.config/Typora/DLn42M16sg
+INFO 1/12/2026, 6:49:46 PM  211  no info
+INFO 1/12/2026, 6:49:46 PM  211  ls put SLicense
+DEBUG 1/12/2026, 6:49:46 PM  211  onUnfillLicense
+DEBUG 1/12/2026, 6:49:46 PM  212  trailRemains is 0
+INFO 1/12/2026, 6:49:46 PM  212  [L] installDate is 12/20/2025, trail remains: 0 days
+DEBUG 1/12/2026, 6:49:46 PM  212  onUnfillLicense
+INFO 1/12/2026, 6:49:46 PM  212  [watch L] hasL: false
+user-dict.json not found
+DEBUG 1/12/2026, 6:49:47 PM  284  app.openFile
+DEBUG 1/12/2026, 6:49:47 PM  285  putAccelerator File -> &File
+DEBUG 1/12/2026, 6:49:47 PM  285  putAccelerator Edit -> &Edit
+DEBUG 1/12/2026, 6:49:47 PM  285  putAccelerator Paragraph -> &Paragraph
+DEBUG 1/12/2026, 6:49:47 PM  285  putAccelerator Format -> F&ormat
+DEBUG 1/12/2026, 6:49:47 PM  285  putAccelerator View -> &View
+DEBUG 1/12/2026, 6:49:47 PM  285  putAccelerator Themes -> &Themes
+DEBUG 1/12/2026, 6:49:47 PM  285  putAccelerator Help -> &Help
+DEBUG 1/12/2026, 6:49:47 PM  314  added recovery 2 null  (0)
+INFO 1/12/2026, 6:49:47 PM  326  synced recovery
+INFO 1/12/2026, 6:49:47 PM  434  [focus] 2
+INFO 1/12/2026, 6:49:47 PM  456  [blur] 2
+INFO 1/12/2026, 6:49:47 PM  456  [win] blur
+INFO 1/12/2026, 6:49:47 PM  456  [focus] 1
+DEBUG 1/12/2026, 6:49:47 PM  683  onUnfillLicense
+ERROR 1/12/2026, 6:49:47 PM  689  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+ERROR 1/12/2026, 6:49:47 PM  690  Error: net::ERR_FILE_NOT_FOUND
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+INFO 1/12/2026, 6:49:47 PM  691  handle document.loadData
+DEBUG 1/12/2026, 6:49:47 PM  691  document.loadData 0
+INFO 1/12/2026, 6:49:47 PM  724  [RenderProcess 2][Log] [UndoManager] reset commandStack
+INFO 1/12/2026, 6:49:47 PM  724  [RenderProcess 2][Log] reset NodeMap
+DEBUG 1/12/2026, 6:49:47 PM  732  added recovery 2   (0)
+INFO 1/12/2026, 6:49:47 PM  733  synced recovery
+INFO 1/12/2026, 6:49:47 PM  762  [blur] 1
+INFO 1/12/2026, 6:49:47 PM  827  [focus] 2
+INFO 1/12/2026, 6:49:47 PM  835  [RenderProcess 2][Log] onBecomeActive
+INFO 1/12/2026, 6:49:47 PM  835  [RenderProcess 2][Log] File.activeWindow = true
+INFO 1/12/2026, 6:49:49 PM  2272  [blur] 2
+INFO 1/12/2026, 6:49:49 PM  2272  [win] blur
+INFO 1/12/2026, 6:49:49 PM  2272  [focus] 1
+INFO 1/12/2026, 6:49:49 PM  2440  [blur] 1
+INFO 1/12/2026, 6:49:49 PM  2440  [focus] 2
+INFO 1/12/2026, 6:49:49 PM  2467  [blur] 2
+INFO 1/12/2026, 6:49:49 PM  2467  [win] blur
+INFO 1/12/2026, 6:49:49 PM  2565  [focus] 1
+INFO 1/12/2026, 6:49:49 PM  3044  [focus] 2
+INFO 1/12/2026, 6:49:50 PM  3314  synced recovery
+INFO 1/12/2026, 6:49:50 PM  3314  ----------------before-quit-----------------
+INFO 1/12/2026, 6:49:50 PM  3314  ------------------will-quit------------------
+INFO 1/12/2026, 6:49:50 PM  3315  -----------------quit------------------
+INFO 1/12/2026, 6:49:50 PM  3315  closeLogging

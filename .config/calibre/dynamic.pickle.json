@@ -1,0 +1,23 @@
+{
+  "add books dialog dir": "/run/media/rafael/HHD 1/books",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "database location dialog": "/run/media/rafael/HHD 1/books/library",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "8.16"
+    ]
+  },
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "iphone",
+  "welcome_wizard_was_run": true
+}

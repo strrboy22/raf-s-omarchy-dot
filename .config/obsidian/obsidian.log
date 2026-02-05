@@ -1,0 +1,32 @@
+2026-01-12 11:43:34 Loading main app package /usr/lib/obsidian/obsidian.asar
+2026-01-12 11:43:35 Checking for update using Github
+2026-01-12 11:43:35 Success.
+2026-01-12 11:43:35 Latest version is 1.10.6
+2026-01-12 11:43:35 App is up to date.
+2026-01-12 11:45:27 Loading main app package /usr/lib/obsidian/obsidian.asar
+2026-01-12 11:45:28 Checking for update using Github
+2026-01-12 11:45:28 Success.
+2026-01-12 11:45:28 Latest version is 1.10.6
+2026-01-12 11:45:28 App is up to date.
+2026-01-24 13:34:43 Loading main app package /usr/lib/obsidian/obsidian.asar
+2026-01-24 13:34:44 Checking for update using Github
+2026-01-24 13:34:44 Success.
+2026-01-24 13:34:44 Latest version is 1.11.5
+2026-01-24 13:34:44 Downloading update from https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/obsidian-1.11.5.asar.gz
+2026-01-24 13:34:45 Verifying hash & signature. Size= 8771203
+2026-01-24 13:34:45 Saving file
+2026-01-24 13:34:45 Update complete.
+2026-01-24 14:34:43 Checking for update using Github
+2026-01-24 14:34:43 Success.
+2026-01-24 14:34:43 Latest version is 1.11.5
+2026-01-24 14:34:43 An update is already downloaded.
+2026-02-01 07:23:19 Loading updated app package /home/rafael/.config/obsidian/obsidian-1.11.5.asar
+2026-02-01 07:23:19 Checking for update using Github
+2026-02-01 07:23:19 Success.
+2026-02-01 07:23:19 Latest version is 1.11.5
+2026-02-01 07:23:19 App is up to date.
+2026-02-02 05:06:07 Loading updated app package /home/rafael/.config/obsidian/obsidian-1.11.5.asar
+2026-02-02 05:06:08 Checking for update using Github
+2026-02-02 05:06:08 Success.
+2026-02-02 05:06:08 Latest version is 1.11.5
+2026-02-02 05:06:08 App is up to date.

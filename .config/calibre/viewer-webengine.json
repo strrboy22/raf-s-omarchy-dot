@@ -1,0 +1,81 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 512,
+      "width": 950,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 512,
+      "width": 950,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 503,
+      "width": 941,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA7UAAAH/AAAAAAAAAAAAAAOsAAAB9gAAAAACAAAAB4AAAAAAAAAAAAAAA7UAAAH/"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "HCS",
+      "model": "EG24S1 Pro",
+      "name": "HDMI-A-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "lookup_location": "Google search",
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAACAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawEAAAAAAAACAAAAAIUA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAkQD///8AAAABAAABIQAAAsX8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAAAAAsUAAAB4AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEQD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAMwA////AAACsAAAAgAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Ichiro Kishimi",
+          "Fumitake Koga"
+        ],
+        "key": "/run/media/rafael/HHD 1/books/library/Ichiro Kishimi/The Courage to Be Disliked (11)/The Courage to Be Disliked - Ichiro Kishimi.epub",
+        "pathtoebook": "/run/media/rafael/HHD 1/books/library/Ichiro Kishimi/The Courage to Be Disliked (11)/The Courage to Be Disliked - Ichiro Kishimi.epub",
+        "timestamp": "2026-01-20T09:11:55.900Z",
+        "title": "The Courage to Be Disliked"
+      }
+    ]
+  }
+}

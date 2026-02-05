@@ -1,0 +1,6 @@
+2026/01/23-22:23:02.273 16bd Creating DB /home/rafael/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
+2026/01/23-22:23:02.277 16bd Reusing MANIFEST /home/rafael/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/01/23-22:23:23.556 16bd Level-0 table #5: started
+2026/01/23-22:23:23.557 16bd Level-0 table #5: 24991 bytes OK
+2026/01/23-22:23:23.560 16bd Delete type=0 #3
+2026/01/23-22:23:23.560 16bd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

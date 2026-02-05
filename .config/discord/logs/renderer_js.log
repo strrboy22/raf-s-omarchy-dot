@@ -1,0 +1,23 @@
+[2025-12-26 16:24:09.250] [info]  DiscordSplash.signalReady
+[2025-12-26 16:24:09.256] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":1,"total":6}
+[2025-12-26 16:24:09.257] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":1,"total":6}
+[2025-12-26 16:24:09.257] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":2,"total":6}
+[2025-12-26 16:24:09.257] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":2,"total":6}
+[2025-12-26 16:24:09.258] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":3,"total":6}
+[2025-12-26 16:24:09.258] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":3,"total":6}
+[2025-12-26 16:24:09.259] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":4,"total":6}
+[2025-12-26 16:24:09.259] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":4,"total":6}
+[2025-12-26 16:24:09.260] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":5,"total":6}
+[2025-12-26 16:24:09.260] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":5,"total":6}
+[2025-12-26 16:24:09.261] [info]  DiscordSplash.onStateUpdate: {"status":"installing-updates","current":6,"total":6}
+[2025-12-26 16:24:09.264] [info]  Splash.onStateUpdate: {"status":"installing-updates","current":6,"total":6}
+[2025-12-26 16:24:09.267] [info]  DiscordSplash.onStateUpdate: {"status":"checking-for-updates","current":6,"total":6}
+[2025-12-26 16:24:09.268] [info]  Splash.onStateUpdate: {"status":"checking-for-updates","current":6,"total":6}
+[2025-12-26 16:24:09.635] [info]  DiscordSplash.onStateUpdate: {"status":"update-manually","current":6,"total":6,"newVersion":"0.0.119"}
+[2025-12-26 16:24:09.635] [info]  Splash.onStateUpdate: {"status":"update-manually","current":6,"total":6,"newVersion":"0.0.119"}
+[2025-12-26 16:24:10.250] [info]  Splash.updateCountdownSeconds: undefined
+[2025-12-26 16:24:11.250] [info]  Splash.updateCountdownSeconds: undefined
+[2025-12-26 16:24:12.250] [info]  Splash.updateCountdownSeconds: undefined
+[2025-12-26 16:24:13.250] [info]  Splash.updateCountdownSeconds: undefined
+[2025-12-26 16:24:14.250] [info]  Splash.updateCountdownSeconds: undefined
+[2025-12-26 16:24:15.250] [info]  Splash.updateCountdownSeconds: undefined

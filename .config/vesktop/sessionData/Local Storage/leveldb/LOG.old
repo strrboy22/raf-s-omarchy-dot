@@ -1,0 +1,24 @@
+2026/02/05-19:35:46.912 5cc0 Reusing MANIFEST /home/rafael/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/02/05-19:35:46.916 5cc0 Recovering log #2245
+2026/02/05-19:35:46.916 5cc0 Reusing old log /home/rafael/.config/vesktop/sessionData/Local Storage/leveldb/002245.log 
+2026/02/05-19:36:46.918 5ce5 Level-0 table #2250: started
+2026/02/05-19:36:46.922 5ce5 Level-0 table #2250: 41081 bytes OK
+2026/02/05-19:36:46.925 5ce5 Delete type=0 #2245
+2026/02/05-21:42:43.734 5cc0 Level-0 table #2252: started
+2026/02/05-21:42:43.740 5cc0 Level-0 table #2252: 43379 bytes OK
+2026/02/05-21:42:43.742 5cc0 Delete type=0 #2249
+2026/02/05-22:58:09.079 5cc0 Level-0 table #2254: started
+2026/02/05-22:58:09.090 5cc0 Level-0 table #2254: 59738 bytes OK
+2026/02/05-22:58:09.094 5cc0 Delete type=0 #2251
+2026/02/05-23:34:24.092 5ce5 Level-0 table #2256: started
+2026/02/05-23:34:24.093 5ce5 Level-0 table #2256: 38306 bytes OK
+2026/02/05-23:34:24.096 5ce5 Delete type=0 #2253
+2026/02/05-23:34:24.096 5ce5 Compacting 4@0 + 1@1 files
+2026/02/05-23:34:24.098 5ce5 Generated table #2257@0: 148 keys, 99702 bytes
+2026/02/05-23:34:24.098 5ce5 Compacted 4@0 + 1@1 files => 99702 bytes
+2026/02/05-23:34:24.101 5ce5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/05-23:34:24.101 5ce5 Delete type=2 #2250
+2026/02/05-23:34:24.101 5ce5 Delete type=2 #2252
+2026/02/05-23:34:24.101 5ce5 Delete type=2 #2256
+2026/02/05-23:34:24.101 5ce5 Delete type=2 #2247
+2026/02/05-23:34:24.101 5ce5 Delete type=2 #2254
