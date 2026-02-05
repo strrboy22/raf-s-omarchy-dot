@@ -1,0 +1,15 @@
+brave-bin
+crunch
+crunch-debug
+dwarfs
+dwarfs-debug
+eww
+gearlever
+gnome-pomodoro-git
+gnome-pomodoro-git-debug
+mdbtools-debug
+parallel-hashmap
+python-desktop-entry-lib
+python-ftputil
+vesktop
+wttrbar
