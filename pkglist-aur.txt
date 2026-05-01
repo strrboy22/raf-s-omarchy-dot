@@ -1,0 +1,10 @@
+awww-bin
+brave-bin
+crunch
+eww
+gearlever
+gnome-pomodoro-git
+lib32-gperftools
+librewolf-bin
+ventoy-bin
+wttrbar

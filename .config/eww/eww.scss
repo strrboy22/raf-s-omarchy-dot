@@ -1,0 +1,167 @@
+// 1. IMPORT OMARCHY THEME
+// This pulls in @background, @foreground, etc.
+@import url("../omarchy/current/theme/waybar.css");
+
+* {
+  all: unset;
+  font-family: "JetBrainsMono Nerd Font";
+}
+
+// 2. DEFINE THE "ISLAND" LOOK 
+// We use #{"..."} to wrap the GTK variables so SCSS doesn't crash
+@mixin island {
+  // Matches Waybar: background-color: alpha(@background, 0.85)
+  background-color: #{"alpha(@background, 0.85)"};
+  
+  // Matches Waybar: border: 1px solid alpha(@foreground, 0.2)
+  border: 1px solid #{"alpha(@foreground, 0.2)"};
+  
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+// 3. MAIN CONTAINER (Transparent to let islands float)
+.container {
+  background-color: transparent;
+  padding: 10px;
+  color: #{"@foreground"};
+}
+
+/* --- HEADER ISLAND --- */
+.header {
+  @include island;
+  padding: 10px 15px; 
+  
+  // Use @foreground for text, slightly transparent for the date
+  .time { font-size: 32px; font-weight: bold; color: #{"@foreground"}; margin-bottom: 2px; }
+  .date { font-size: 14px; color: #{"alpha(@foreground, 0.7)"}; }
+  
+  .profile-pic {
+    min-width: 50px; 
+    min-height: 50px; 
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid #{"@foreground"};
+  }
+}
+
+/* --- TOGGLES ISLAND --- */
+.toggles {
+  @include island;
+  padding: 10px;
+
+  .toggle-btn {
+    background-color: #{"alpha(@foreground, 0.1)"};
+    border-radius: 8px;
+    min-height: 40px;
+    margin: 0 5px;
+    font-size: 20px;
+    color: #{"@foreground"};
+    transition: all 0.2s;
+  }
+  .toggle-btn:hover { 
+      background-color: #{"@foreground"}; 
+      color: #{"@background"}; 
+  }
+}
+
+/* --- MUSIC PLAYER ISLAND --- */
+.music-player {
+  @include island;
+  
+  .album-art {
+    min-width: 80px; 
+    min-height: 80px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px;
+    background-color: #{"alpha(@foreground, 0.1)"};
+  }
+  
+  .song-title { font-weight: bold; font-size: 14px; margin-bottom: 2px; color: #{"@foreground"}; }
+  .artist { font-size: 12px; color: #{"alpha(@foreground, 0.7)"}; margin-bottom: 5px; }
+  
+  .music-controls button { 
+      font-size: 20px; 
+      margin: 0 8px; 
+      color: #{"@foreground"}; 
+  }
+  .music-controls button:hover { color: #{"alpha(@foreground, 0.6)"}; }
+}
+
+/* --- SYSTEM METRICS ISLAND --- */
+.system-sliders {
+  @include island;
+  
+  .slider-box { margin-bottom: 12px; }
+  .slider-box:last-child { margin-bottom: 0; }
+  
+  .icon { 
+      font-size: 16px; 
+      margin-right: 15px; 
+      min-width: 25px; 
+      color: #{"@foreground"};  
+  }
+  
+  .value-text {
+      margin-left: 15px; 
+      min-width: 35px; 
+      font-size: 12px;
+      color: #{"alpha(@foreground, 0.7)"};
+  }
+  
+  scale trough {
+    min-height: 6px; 
+    border-radius: 10px;
+    background-color: #{"alpha(@foreground, 0.1)"};
+    highlight { border-radius: 10px; }
+  }
+
+  // NOTE: We keep hardcoded colors for bars because themes usually 
+  // don't define "CpuColor" or "RamColor". 
+  // If you prefer them to be all white/foreground, change background-color to #{"@foreground"}
+  .vol-bar highlight { background-color: #89b4fa; }
+  .cpu-bar highlight { background-color: #f38ba8; }
+  .ram-bar highlight { background-color: #a6e3a1; }
+  .temp-bar highlight { background-color: #fab387; }
+  .ssd-bar highlight { background-color: #cba6f7; }
+  .hdd-bar highlight { background-color: #f9e2af; }
+}
+
+/* --- CALENDAR ISLAND --- */
+.cal {
+  @include island;
+  font-size: 13px;
+  color: #{"@foreground"};
+  padding-top: 10px;
+  
+  .header { 
+      color: #{"@foreground"}; 
+      font-weight: bold; 
+      padding-bottom: 10px; 
+  }
+
+  .day {
+      min-width: 2.2em;
+      min-height: 2.2em;
+      padding: 0.3em 0;
+  }
+  
+  :selected { 
+      color: #{"@background"}; 
+      background-color: #{"@foreground"}; 
+      border-radius: 8px;
+      min-width: 2.2em;
+      min-height: 2.2em;
+      padding: 0.3em 0;
+  }
+  
+  .day:hover {
+      background-color: #{"alpha(@foreground, 0.1)"};
+      border-radius: 50%;
+  }
+}

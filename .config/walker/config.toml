@@ -1,0 +1,63 @@
+force_keyboard_focus = true
+selection_wrap = true
+hide_quick_activation = false
+theme = "omarchy-default"
+additional_theme_location = "~/.local/share/omarchy/default/walker/themes/"
+hide_action_hints = true
+
+[placeholders]
+"default" = { input = " Search...", list = "No Results" }
+
+[keybinds]
+#quick_activate = []
+
+[columns]
+symbols = 1
+
+[providers]
+max_results = 256
+default = [
+  "websearch",
+  "desktopapplications",
+]
+
+[[providers.prefixes]]
+prefix = "/"
+provider = "providerlist"
+
+[[providers.prefixes]]
+prefix = "."
+provider = "files"
+
+[[providers.prefixes]]
+prefix = ":"
+provider = "symbols"
+
+[[providers.prefixes]]
+prefix = "="
+provider = "calc"
+
+[[providers.prefixes]]
+prefix = "@"
+provider = "websearch"
+
+[[providers.prefixes]]
+prefix = "$"
+provider = "clipboard"
+
+# --- GAMING MENU PREFIX ---
+[[providers.prefixes]]
+prefix = "gaming"
+provider = "menus:gaming"
+
+[[emergencies]]
+text = "Restart Walker"
+command = "omarchy-restart-walker"
+
+# Add this menu configuration to your existing config.toml
+
+[[menus]]
+name = "aether"
+source = "/home/rafael/.config/elephant/menus/aether.lua"
+searchable = true
+

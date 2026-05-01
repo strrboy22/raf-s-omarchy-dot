@@ -1,0 +1,96 @@
+(defwindow control_center
+  :monitor 0
+  :geometry (geometry :x "10px"
+                      :y "10px"
+                      :width "380px"  ;; Slightly narrower width
+                      :height "520px" ;; Fixed height (Adjust this number if needed!)
+                      :anchor "top right")
+  :stacking "overlay"
+  :exclusive false
+  (control_center_layout))
+
+(defwidget control_center_layout []
+  (box :class "container" :orientation "v" :space-evenly false
+    
+    ;; --- HEADER ---
+    (box :class "header" :orientation "h" :space-evenly true
+      (box :orientation "v" :space-evenly false :halign "start"
+        (label :class "time" :text "${formattime(EWW_TIME, '%H:%M')}")
+        (label :class "date" :text "${formattime(EWW_TIME, '%A, %d %B')}"))
+      (box :class "profile-pic" :halign "end" :style "background-image: url('${profile_image}');"))
+
+    ;; --- TOGGLES ---
+    (box :class "toggles" :orientation "h" :space-evenly true
+      (button :class "toggle-btn" :onclick "nmcli radio wifi on" "󰖩")
+      (button :class "toggle-btn" :onclick "bluetoothctl power on" "󰂯")
+      (button :class "toggle-btn" :onclick "systemctl reboot" "󰜉")
+      (button :class "toggle-btn" :onclick "shutdown now" "󰐥"))
+
+    ;; --- MEDIA PLAYER ---
+    (box :class "music-player" :orientation "h" :space-evenly false :valign "center"
+      ;; ADDED :valign "center" HERE
+      (box :class "album-art" :valign "center" :style "background-image: url('${music_art}');")
+      
+      (box :orientation "v" :class "music-info" :space-evenly false :valign "center"
+        (label :class "song-title" :limit-width 20 :text music_title)
+        (label :class "artist" :limit-width 20 :text music_artist)
+        (box :orientation "h" :halign "center" :class "music-controls" :space-evenly true
+          (button :onclick "playerctl previous" "")
+          (button :onclick "playerctl play-pause" {music_status == "Playing" ? "⏸" : "▶"})
+          (button :onclick "playerctl next" ""))))
+
+    ;; --- SYSTEM METRICS ---
+    (box :class "system-sliders" :orientation "v" :space-evenly false
+      
+      ;; 1. Volume
+      (box :orientation "h" :space-evenly false :class "slider-box"
+        (label :class "icon" :text "󰕾")
+        (scale :class "vol-bar" :min 0 :max 100 :value volume :onchange "pamixer --set-volume {}" :hexpand true)
+        (label :class "value-text" :text "${volume}%"))
+      
+      ;; 2. CPU Usage
+      (box :orientation "h" :space-evenly false :class "slider-box"
+        (label :class "icon" :text "󰍛")
+        (scale :class "cpu-bar" :min 0 :max 100 :value {EWW_CPU.avg} :active false :hexpand true)
+        (label :class "value-text" :text "${round(EWW_CPU.avg, 0)}%"))
+
+      ;; 3. RAM Usage
+      (box :orientation "h" :space-evenly false :class "slider-box"
+        (label :class "icon" :text "󰘚")
+        (scale :class "ram-bar" :min 0 :max 100 :value {EWW_RAM.used_mem_perc} :active false :hexpand true)
+        (label :class "value-text" :text "${round(EWW_RAM.used_mem_perc, 0)}%"))
+
+      ;; 4. CPU Temp
+      (box :orientation "h" :space-evenly false :class "slider-box"
+        (label :class "icon" :text "")
+        (scale :class "temp-bar" :min 0 :max 100 :value {current_temp} :active false :hexpand true)
+        (label :class "value-text" :text "${current_temp}°C"))
+
+      ;; 5. SSD Usage
+      (box :orientation "h" :space-evenly false :class "slider-box"
+        (label :class "icon" :text "")
+        (scale :class "ssd-bar" :min 0 :max 100 :value {EWW_DISK["/"].used_perc} :active false :hexpand true)
+        (label :class "value-text" :text "${round(EWW_DISK["/"].used_perc, 0)}%"))
+
+      ;; 6. HDD Usage
+      (box :orientation "h" :space-evenly false :class "slider-box"
+        (label :class "icon" :text "")
+        (scale :class "hdd-bar" :min 0 :max 100 :value {EWW_DISK["/run/media/rafael/HHD 1"].used_perc} :active false :hexpand true)
+        (label :class "value-text" :text "${round(EWW_DISK["/run/media/rafael/HHD 1"].used_perc, 0)}%"))
+    )
+
+    ;; --- CALENDAR ---
+    (calendar :class "cal")
+  )
+)
+
+;; VARIABLES
+(defpoll volume :interval "1s" "pamixer --get-volume")
+(defpoll music_title :interval "1s" "playerctl metadata title || echo 'No Music'")
+(defpoll music_artist :interval "1s" "playerctl metadata artist || echo ''")
+(defpoll music_art :interval "2s" "~/.config/eww/scripts/get_cover.sh")
+(defvar profile_image "/home/rafael/Wallpapers/render-2.png") 
+
+;; New System Polls
+(defpoll current_temp :interval "2s" "~/.config/eww/scripts/get_temp.sh")
+(defpoll music_status :interval "1s" "playerctl status || echo 'Paused'")
